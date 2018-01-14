@@ -2,11 +2,17 @@
 title: Why Static?
 ---
 
-## JAMstack
+I’ve been really interested in static site generation, JAMstack, Hugo and Netlify for a while now. In fact, my previous personal website was written in Jekyll and hosted on GitHub pages.
 
-What is the [JAMstack](https://jamstack.org/)?
+At [Tomango](http://www.tomango.co.uk), I’ve just built our first production site using these technologies and needed a resource to pool together all the benefits of SSG for a meeting. A meta solution seemed to fit the bill.
 
-Modern web development architecture based on client-side JavaScript, reusable APIs, and prebuilt Markup.
+Why Static? is a static site in Hugo that (at the time of writing) lists out a lot of benefits to SSG and Netlify. At this point, it’ll form a checklist of things to mention when explaining the concept to others on the team.
+
+## What is the JAMstack?
+
+The [JAMstack](https://jamstack.org/) is a methodology for building static websites using client-side JavaScript, APIs and prerendered Markup. It takes you from a purely static site to a 'dynamic' static site.
+
+I love that the baseline is serving markup quickly. With all the JS frameworks in the world, this feels like a step in the right direction. Then JavaScript enhances that content, adding in functionality. Finally, APIs provide the heavier logic for features like comments, search and authentication. These can be custom or third-party.
 
 ## Features of the JAMstack
 
@@ -103,3 +109,7 @@ Proper AB testing on multiple branches lets you roll out new features incrementa
 
 ### Functions
 Deploy AWS lambda functions within the repository for custom server-side coding.
+
+___
+
+Site by [Trys Mudford](http://www.trysmudford.com/)

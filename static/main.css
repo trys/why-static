@@ -33,13 +33,15 @@ a {
 	color: #FF5722;
 }
 
-[role="banner"] {
-	border-bottom: 2px solid #FF5722;
-}
-
 .wrap {
 	max-width: 750px;
 	margin: 0 auto;
+}
+
+[role="banner"] {
+	border-bottom: 2px solid #FF5722;
+	margin-bottom: 30px;
+	display: block;
 }
 
 ol,
