@@ -1,3 +1,4 @@
 baseURL = "/"
 languageCode = "en-gb"
 title = "Why Static?"
+disableKinds = ["category", "taxonomy", "taxonomyTerm"]
