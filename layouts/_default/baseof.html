@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+	<head>
+		<meta charset="utf-8" />
+		<base href="{{ if getenv "URL" }}{{ getenv "URL" }}/{{ else }}{{ $.Site.BaseURL }}{{ end }}">
+		<link rel="stylesheet" href="main.css"/>
+		<link href="https://fonts.googleapis.com/css?family=Crimson+Text|Roboto+Condensed:300,400" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="format-detection" content="telephone=no" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="theme-color" content="#061D28">
+		<title>{{ .Title }}</title>
+	</head>
+	<body>
+
+		<header role="banner" class="wrap">
+			<h1>{{ .Title }}</h1>
+		</header>
+
+		<main role="main" class="main wrap" id="main">
+			{{ block "main" . }}
+
+			{{ end }}
+		</main>
+
+	</body>
+</html>

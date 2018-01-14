@@ -1,0 +1,49 @@
+body {
+	-moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+	font: 300 20px /1.5 'Roboto Condensed', sans-serif;
+	background: #F5F5F5;
+	padding: 30px;
+	margin: 0;
+	color: #212121;
+}
+
+h1,
+h2 {
+	font-family: 'Crimson Text', cursive;
+	font-weight: 400;
+}
+
+h1 {
+	margin: 0 0 10px;
+}
+
+h2 {
+	border-bottom: 1px dotted #AAA;
+	padding: 0 0 10px;
+}
+
+h3 {
+	font-size: 1em;
+	font-weight: 400;
+	margin: 0;
+}
+
+a {
+	color: #FF5722;
+}
+
+[role="banner"] {
+	border-bottom: 2px solid #FF5722;
+}
+
+.wrap {
+	max-width: 750px;
+	margin: 0 auto;
+}
+
+ol,
+ul,
+p {
+	margin: 0 0 30px;
+}
