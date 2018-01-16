@@ -19,24 +19,24 @@ I love that the baseline is serving markup quickly. With all the JS frameworks i
 ### Speed
 Serving HTML files is really quick. After working in WordPress-land, you forget how quick the web is by default.
 
-### No on-the-fly build.
+### No on-the-fly build
 There's no PHP running. There is no backend. You don't have a custom rewrite rule matching up URLs to files. Just a classic folder structure that serves the web like it was 1995.
 
-### No monolithic app.
+### No monolithic app
 The world does not have to boot up to serve a page a-la WordPress.
 
 ### Hugely reduced attack surface area
 When there's no backend, what's there to hack. Plugin vulnerabilities are no more. The server provider won't get angry if your CMS isn't up to date. Those custom rewrites are a really obvious entry point.
 
-### Scales hugely if you get a hit.
+### Scales hugely if you get a hit
 Last year we had a site getting 3k concurrent visitors and 135k visitors in one day and only then did Apache start to flinch. If that was a DB driven site, or a PHP site running at any level of complexity, our server would be taken down.
 
 If the site manages to get a link from a national newspaper or becomes a 'hit', static is the only way to scale without a huge amount more infrastructure.
 
-### Git-centric.
+### Git-centric
 All the content is stored in Git, along with the site and assets. Version controlling the content means reverting back to past states is a breeze. There's also no cost to having revisions unlike a traditional DB-driven site.
 
-### Still dynamic, just moved up a level.
+### Still dynamic, just moved up a level
 'Static' is a deceiving term. When you think about our sites, most are really static. If you and I both load our company site up, we both see exactly the same thing. If you and I load up twitter.com, we see something totally different. Twitter is dynamic, the sites we build rarely are. They may be updated often, but they are still ultimately static.
 
 With static site generators like Hugo, a new site can be built in a matter of seconds. So it can continue to feel 'dynamic', whilst having all the static benefits.
